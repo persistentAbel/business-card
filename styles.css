@@ -1,0 +1,116 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Oswald', sans-serif;
+}
+
+.avatar {
+    
+    /* Using margin shorthand top/bottom vertical and right/left horizontal */
+    margin: auto 0;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    background: #ff6d00;
+    color: #240046;
+    border-bottom: 7px solid #9d4edd;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+     
+     /*
+     
+     Simple Animation Usage
+     
+     */
+     
+     
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+.first-line, .second-line, .third-line {
+    color: #fff;
+    text-shadow: 2px 2px 5px red;
+    padding: 7px;
+    border: 2px solid #240046;
+    border-radius: 7px;
+    background: #5a189a;
+    
+    
+    /*
+    
+    Simple Animation Usage
+    
+    */
+    
+    animation-duration: 2s;
+    animation-name: slidein;
+    
+}
+
+.first-line:hover, .second-line:hover, .third-line:hover {
+    background-color: black;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+/* DRY */
+
+/* .second-line {
+    
+}
+
+.third-line {
+    
+} */
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
